@@ -1,0 +1,294 @@
+# -------------------------------
+# MEAN.JS Gitignore by Joho
+# -------------------------------
+# Version   v0.6.1
+# Created   17-Oct-2014
+# Updated   18-Sep-2015
+# Docs      http://git-scm.com/docs/gitignore
+
+
+# -------------------------------
+# Node, Bower, etc.
+# -------------------------------
+
+.bower-*/
+.nodemonignore
+bower_components
+node_modules
+npm-debug.log*
+public
+public/lib/
+
+
+# -------------------------------
+# MEAN.JS & Development
+# -------------------------------
+
+_site/
+*.css.map
+*.pem
+.sass-cache/
+.tmp/
+.yo-rc.json
+build
+config/env/local.js
+local.env.js
+modules/users/client/img/profile/uploads
+public/dist/
+uploads
+
+
+# -------------------------------
+# Runtime Data & Generated Files
+# -------------------------------
+
+coverage/
+journal/
+lib-cov/
+logs/
+pids/
+report/
+results/
+*.bak
+*.out
+*.pid
+*.seed
+
+
+# -------------------------------
+# Temporary files
+# -------------------------------
+
+temp
+tmp
+*.tmp
+*.tmp.*
+
+
+# -------------------------------
+# User Environment Variables
+# -------------------------------
+
+!.env.example
+.env
+event.json
+
+
+# -------------------------------
+# Amazon Web Services
+# -------------------------------
+
+*.aws
+.awspublish-*
+aws-sdk-all.js
+
+
+# -------------------------------
+# Packages
+# -------------------------------
+
+*.7z
+*.ar
+*.apk
+*.app
+*.deb
+*.dmg
+*.iso
+*.msi
+*.pkg
+*.rar
+*.rpm
+*.tar
+*.tar.*
+*.xap
+*.zip
+
+
+# -------------------------------
+# Logs & Database
+# -------------------------------
+
+*.lock
+*.0
+*.1
+*.ns
+*.csv
+*.dat
+*.log
+*.ldf
+*.mdf
+*.sdf
+*.sqlite
+
+
+# -------------------------------
+# Windows
+# -------------------------------
+
+$RECYCLE.BIN/
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+*.cab
+*.dll
+*.exe
+*.msi
+*.msm
+*.msp
+*.lnk
+
+
+# -------------------------------
+# OS X / Linux
+# -------------------------------
+
+Icon?
+*~
+._*
+.*-V100
+.Apple*
+.DS_Store
+.LSOverride
+.TemporaryItems
+.Trash-*
+.Trashes
+.VolumeIcon.icns
+.apdisk
+.directory
+.fseventsd
+Network Trash Folder
+Temporary Items
+
+
+# -------------------------------
+# Text Editors / IDEs
+# -------------------------------
+
+sftp-config.json
+*~
+*.swo
+*.swp
+*.stTheme.cache
+*.sublime-project
+*.sublime-workspace
+*.tmlanguage.cache
+*.tmPreferences.cache
+.c9/
+data/
+mongod
+
+
+# -------------------------------
+# Miscellaneous
+# -------------------------------
+
+!.gitkeep
+.joho
+
+
+
+# -------------------------------
+# Packages
+# -------------------------------
+
+*.7z
+*.ar
+*.apk
+*.app
+*.deb
+*.dmg
+*.iso
+*.msi
+*.pkg
+*.rar
+*.rpm
+*.tar
+*.tar.*
+*.xap
+*.zip
+
+
+# -------------------------------
+# Logs & Database
+# -------------------------------
+
+*.lock
+*.0
+*.1
+*.ns
+*.csv
+*.dat
+*.log
+*.ldf
+*.mdf
+*.sdf
+*.sqlite
+
+
+# -------------------------------
+# Windows
+# -------------------------------
+
+$RECYCLE.BIN/
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+*.cab
+*.dll
+*.exe
+*.msi
+*.msm
+*.msp
+*.lnk
+
+
+# -------------------------------
+# OS X / Linux
+# -------------------------------
+
+Icon?
+*~
+._*
+.*-V100
+.Apple*
+.DS_Store
+.LSOverride
+.TemporaryItems
+.Trash-*
+.Trashes
+.VolumeIcon.icns
+.apdisk
+.directory
+.fseventsd
+Network Trash Folder
+Temporary Items
+
+
+# -------------------------------
+# Text Editors / IDEs
+# -------------------------------
+
+sftp-config.json
+*~
+*.swo
+*.swp
+*.stTheme.cache
+*.sublime-project
+*.sublime-workspace
+*.tmlanguage.cache
+*.tmPreferences.cache
+
+
+# -------------------------------
+# Miscellaneous
+# -------------------------------
+
+!.gitkeep
+.joho
+
+
+# -------------------------------
+#
+# end of file .gitignore
+#
+# -------------------------------
